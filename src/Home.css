@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+button {
+  width: 200px;
+  height: 50px;
+  font-size: large;
+}
+button:hover {
+  cursor: pointer;
+}
+.dialog-button-div {
+  align-items: center;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.dialog-button {
+  width: 100px;
+  height: 30px;
+  background-color: rgb(12, 31, 106) !important;
+  color: white !important;
+}
